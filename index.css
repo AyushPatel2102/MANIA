@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 120px auto;
+    background-attachment: fixed;
+    background-color: black;
+    color: white;
+    background-image: url(background.jpg);
+}
+
+div {
+    width: max-content;
+    margin: 5px auto;
+    border: 3px solid red;
+    border-radius: 30px;
+    padding: 30px;
+    background-color: rgb(9, 9, 9);
+}
+
+#next {
+    display: block;
+    text-decoration: none;
+    margin: 25px auto 0;
+    text-align: center;
+    border: 2px solid red;
+    width: 40%;
+    border-radius: 30px;
+    transition: 0.3ms;
+    padding: 5px;
+    font-size:100%;
+    font-weight: bold;
+}
+
+#next:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px red;
+}
+
+
+
+input {
+border-radius: 30px;
+width:300px;
+margin:5px auto ;
+padding: 10px;
+}
+
+input:hover {
+    box-shadow: 0 0 15px red;
+}
+
+label {
+    display: block;
+    margin-left: 0;
+    margin-bottom: 0%;
+    font-size: 25px;
+}
+
+.head h1 {
+    color: red;
+    display: table;
+    background-color: black;
+    text-align: center;
+     margin-top: 50px;
+    margin: 30px auto;
+
+    width: max-content;
+    border: 10px solid black;
+    border-radius: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Sign h3 {
+    text-decoration: underline;
+    text-align: center;
+    color: aqua;
+    font-size: 30px;
+    margin-top: 35px;
+    height: 15px;
+}
+
+/* Mobile only */
+@media (max-width: 480px) {
+
+    div {
+        padding: 20px;
+    }
+
+  input {
+        width: 300px;
+        max-width: 100%;
+        font-size: 18px;
+    }
+    label {
+        font-size: 22px;
+    }
+
+    .head h1 {
+        font-size: 22px;
+    }
+
+    .Sign h3 {
+        font-size: 24px;
+    }
+}

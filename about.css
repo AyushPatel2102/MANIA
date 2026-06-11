@@ -1,0 +1,44 @@
+body{
+    background-image: url(background.jpg);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color:red;
+    font-weight:300;
+    font-size: 300%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin: 5% auto;
+    border: 3px solid rgba(0, 0, 0, 0.388);
+    background-color: rgba(0, 0, 0, 0.578);
+    box-sizing: border-box;
+    max-width: 80%;
+    padding: 20px;
+}
+main pre{
+    color: white;
+}
+
+
+.about{
+    color: white;
+}
+@media (max-width:768px){
+
+ 
+
+    h1{
+        width:auto;
+        max-width:none;
+        padding:8px 15px;
+        font-size:2rem;
+        margin:0;
+    }
+
+    
+}
