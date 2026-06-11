@@ -3,7 +3,7 @@
 }
 
 body {
-    margin: 120px auto;
+    margin: 5% auto;
     background-attachment: fixed;
     background-color: black;
     color: white;
@@ -85,9 +85,12 @@ label {
 
 /* Mobile only */
 @media (max-width: 480px) {
+      body {
+         margin: 27% auto;
+    }
 
     div {
-        padding: 20px;
+        padding: 4%;
     }
 
   input {
